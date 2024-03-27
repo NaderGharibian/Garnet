@@ -7,12 +7,6 @@
 	<ServerGarbageCollection>true</ServerGarbageCollection>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\test\testcerts\testcert.pfx" Link="testcert.pfx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
   <ItemGroup>    
     <PackageReference Include="StackExchange.Redis" Version="2.6.80" />
   </ItemGroup>
